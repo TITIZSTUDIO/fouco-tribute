@@ -1,0 +1,1312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ht"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;FOUCO: Complete Analysis &amp; Talent Profile&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Enhanced Navigation */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-menu {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1000;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(15px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 215, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FFA500);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #1a1a2e;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Enhanced Hero Section */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 100px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: url('data:image/svg+xml,&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"&gt;&lt;defs&gt;&lt;pattern id="stars" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"&gt;&lt;circle cx="10" cy="10" r="0.5" fill="%23FFD700" opacity="0.3"/&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect width="100" height="100" fill="url(%23stars)"/&gt;&lt;/svg&gt;') repeat;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.3;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: starMove 20s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes starMove {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { background-position: 0 0; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { background-position: 100px 100px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 6em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FFA500, #FF6B6B, #4ECDC4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: glow 3s ease-in-out infinite alternate;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero h1:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: brightness(1.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes glow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.4))<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>drop-shadow(0 0 40px rgba(255, 107, 107, 0.2));<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>filter: drop-shadow(0 0 40px rgba(255, 215, 0, 0.8))<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>drop-shadow(0 0 60px rgba(78, 205, 196, 0.4));<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.2em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4ECDC4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeInUp 1s ease 0.5s forwards;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeInUp {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from { opacity: 0; transform: translateY(30px); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-description {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.4em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1000px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeInUp 1s ease 1s forwards;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Live Counter */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.live-stats {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeInUp 1s ease 1.5s forwards;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.live-counter {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 215, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid rgba(255, 215, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.counter-number {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: countUp 3s ease-out 2s forwards;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.counter-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4ECDC4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes countUp {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from { transform: scale(0); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { transform: scale(1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1400px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 100px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.08);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(20px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 255, 255, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: left 0.8s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section:hover::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-15px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 25px 50px rgba(255, 215, 0, 0.25);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3.5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section h2::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: -15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 120px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #4ECDC4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Enhanced Journey Timeline */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to bottom, #FFD700, #4ECDC4, #FF6B6B);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(odd) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: row-reverse;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-content:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-point {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 10;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: pulse 2s ease-in-out infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Enhanced Talents Grid */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talents-showcase {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, rgba(255, 107, 107, 0.15), rgba(78, 205, 196, 0.15));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FF6B6B, #4ECDC4, #FFD700);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-size: 400% 400%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: gradientShift 8s ease infinite;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes gradientShift {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { background-position: 0% 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { background-position: 100% 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card:hover::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.15;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-15px) scale(1.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 40px rgba(255, 215, 0, 0.4);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card:hover .talent-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotateY(360deg) scale(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card h3 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.8em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.talent-card p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Interactive Stats with Animation */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stats-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #FFD700, #FFA500);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #1a1a2e;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 200%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 200%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.4), transparent);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotate(45deg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.8s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card:hover::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotate(45deg) translate(100%, 100%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-10px) scale(1.03);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 15px 30px rgba(255, 215, 0, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-number {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-card:hover .stat-number {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Video Gallery Section */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-gallery {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 50px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-thumbnail {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FF6B6B, #4ECDC4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-info {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.video-description {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ccc;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Testimonials Section */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.testimonials {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 50px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.testimonial {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 215, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left: 4px solid #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.testimonial::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '"';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.3;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.testimonial-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.testimonial-author {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4ECDC4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Social Media Integration */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-section {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-links {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 40px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-link {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FF6B6B);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-link:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.2) rotate(360deg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 25px rgba(255, 215, 0, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievements-list {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 215, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid rgba(255, 215, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.08);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.4s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(15px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-width: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement:hover .achievement-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.2) rotate(360deg);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4ECDC4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.achievement-description {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Enhanced Conclusion */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.conclusion {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 100px 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: radial-gradient(circle, rgba(255,215,0,0.2) 0%, rgba(78,205,196,0.15) 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 100px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.conclusion::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 200%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 200%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: conic-gradient(from 0deg, transparent, rgba(255, 215, 0, 0.1), transparent);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: rotate 10s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes rotate {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { transform: rotate(360deg); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.conclusion h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FF6B6B, #4ECDC4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.conclusion-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 2.2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1000px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.highlight {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.emphasis {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4ECDC4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 10px rgba(78, 205, 196, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Scroll to Top Button */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.scroll-top {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, #FFD700, #FF6B6B);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(100px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1000;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.scroll-top.visible {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(0);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.scroll-top:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 25px rgba(255, 215, 0, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Loading Animation */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.loading-overlay {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #0f0f23;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 9999;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.loading-spinner {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 3px solid rgba(255, 215, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 3px solid #FFD700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: spin 1s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes spin {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: rotate(0deg); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: rotate(360deg); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Mobile Responsiveness */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero h1 { font-size: 3.5em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero-subtitle { font-size: 1.8em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline::before { left: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item { flex-direction: column !important; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-content { margin: 0 0 0 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-point { left: 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.talents-showcase { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.section { padding: 40px 30px; margin: 60px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.section h2 { font-size: 2.5em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.live-stats { flex-direction: column; gap: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.nav-menu { position: relative; top: auto; right: auto; margin: 20px auto; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.social-links { flex-wrap: wrap; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 480px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero h1 { font-size: 2.5em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero-subtitle { font-size: 1.4em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.hero-description { font-size: 1.1em; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.section { padding: 25px 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.conclusion { padding: 60px 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.stats-grid { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.testimonials { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Loading Screen --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="loading-overlay" id="loadingOverlay"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="loading-spinner"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Navigation Menu --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="nav-menu"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-btn" onclick="scrollToSection('hero')"&gt;Akèy&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-btn" onclick="scrollToSection('journey')"&gt;Jouney&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-btn" onclick="scrollToSection('talents')"&gt;Talan&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-btn" onclick="scrollToSection('achievements')"&gt;Reyalizasyon&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Enhanced Hero Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero" id="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1 onclick="triggerCelebration()"&gt;FOUCO&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-subtitle"&gt;Haiti's Multimedia Renaissance Genius&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-description"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Yon kreyatè revolisyonè ki transforme jounalism, edikasyon, ak divertissement nan yon sèl eksperyans otantik ak pwofèsyonèl</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Live Stats Counter --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="live-stats"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="live-counter"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-number" id="subscriberCount"&gt;525K+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-label"&gt;Subscribers&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="live-counter"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-number" id="viewCount"&gt;275M+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-label"&gt;Total Views&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="live-counter"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-number" id="videoCount"&gt;2K+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="counter-label"&gt;Videos&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced Journey Timeline --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section" id="journey"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🎭 The Evolution Journey&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-point"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-content" onclick="expandTimeline(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;🎤 SINGER ERA&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;Haiti Jeunes Talents&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Performance foundation ak vocal talent. Community recognition ak stage presence. Li te kòmanse ak passion pou mizik ak yon vwa ki te gen kapasite touche kè moun yo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-details" style="display: none;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;&lt;strong&gt;Key Moments:&lt;/strong&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;First major performance at local talent show&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Community recognition ak cultural impact&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Building foundation pou multimedia career&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-point"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-content" onclick="expandTimeline(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;📺 CONTENT CREATOR&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;Digital Platform Master&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Multi-platform strategy ak audience building. Brand evolution ak content diversification. Li te evolye nan yon estratèj dijital ki revolisyonè jan moun yo konsome konten nan Haiti.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-details" style="display: none;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;&lt;strong&gt;Platform Expansion:&lt;/strong&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;YouTube channel development&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Cross-platform content strategy&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Audience engagement techniques&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Brand identity establishment&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-point"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-content" onclick="expandTimeline(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3&gt;👑 MEDIA EMPIRE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4&gt;525K+ Subscribers&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Cultural leadership ak social impact. National treasure status. Li rive nan yon nivo kote li pa sèlman yon entertainer, men yon vèritab fòs kiltirèl ak enfliyans sosyal.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="timeline-details" style="display: none;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;&lt;strong&gt;Empire Achievements:&lt;/strong&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Multi-million view videos&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Cross-generational appeal&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;Cultural preservation initiatives&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;International recognition&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced Talents Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section" id="talents"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🌟 Master Talent Portfolio&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="talents-showcase"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;📰&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Investigative Journalist&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;International-level reporting ak data analysis. Covers 5-country investigations ak precision ak verified sources ki compete ak CNN/BBC standards. Li ekspoz korupsyon ak analiz situasyon politik yo ak yon nivo pwofèsyonèl ki egal ak òganizasyon nouvèl entènasyonal yo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;🎭&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Master Storyteller&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Cinematic narratives ak character development. Creates immersive experiences ki fè ou wè, santi, ak konprann chak scene ak emotion. Li gen kapasite pou transforme yon estèn òdinè nan yon ekspèryans sinematografik ki kenbe atansyon ou.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;🧠&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Political Analyst&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Sharp analysis ak pattern recognition. Balanced criticism ak predictive accuracy ki expose corruption across all sectors equally. Li analiz politics ak yon objektivite ki egal ak ekspètiz enstitisyon rechèch yo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;💑&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Life Coach&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Marriage counseling, sexual health education, ak personal development guidance ak professional-level expertise ak cultural sensitivity. Li trete sijè ki tabou ak yon ekspètiz ak respè ki akseptab pou tout jenerasyon.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;📻&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Live Show Host&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Professional broadcasting ak real-time audience engagement. Manages live calls ak delivers expert advice ak entertainment value. Li gen kapasite pou jere emisyon live yo ak yon pwofèsyonalism ki san parèy.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;🎵&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Musical Artist&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Social commentary through music ak authentic cultural expression. Creates songs ki address real social issues ak compelling melodies. Li itilize mizik la kòm yon zouti pou kominikasyon sosyal ak preservasyon kiltirèl.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;🔮&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Spiritual Guide&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Cultural bridge-building between different faith communities. Presents testimonies ak spiritual content ak respect ak authenticity. Li sèvi kòm yon bridge ant kominote relijye yo ak yon respè pou chak kwayans.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="talent-card" onclick="highlightTalent(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="talent-icon"&gt;🎓&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Cultural Educator&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Preserves ak teaches Haitian culture through modern media. Makes complex topics accessible ak engaging pou all audiences. Li edike ak konsève kilti ayisyen an nan yon jan ki modèn ak aksesib.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced Stats Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;📊 Impact &amp; Reach&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stats-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;525K+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;YouTube Subscribers&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;275M+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;Total Views&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;5+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;Major Platforms&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;10+&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;Expertise Domains&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;100%&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;Haitian Authenticity&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="stat-card" onclick="animateStatCard(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="stat-number"&gt;∞&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="stat-label"&gt;Cultural Impact&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Video Gallery Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🎬 Featured Content&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="video-gallery"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="video-card" onclick="playVideo(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-thumbnail"&gt;📰&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-title"&gt;Investigative Reports&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-description"&gt;Deep-dive investigations ki ekspoz korupsyon ak jwenn verite a nan òganizasyon yo ak gouvènman an.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="video-card" onclick="playVideo(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-thumbnail"&gt;💑&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-title"&gt;Life Coaching Sessions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-description"&gt;Professional guidance pou relasyon, sante seksyèl, ak devlopman pèsonèl ak yon apwòch kiltirèl ak sensitif.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="video-card" onclick="playVideo(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-thumbnail"&gt;🎵&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-title"&gt;Musical Productions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-description"&gt;Compositions originales ki kòmante sou realite sosyal yo ak melodi ki aksèle ak kè moun yo.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="video-card" onclick="playVideo(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-thumbnail"&gt;📻&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="video-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-title"&gt;Live Shows&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="video-description"&gt;Interactive broadcasts ak real-time audience participation ak professional advice sou divès sijè yo.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Testimonials Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;💬 What People Say&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="testimonials"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="testimonial"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Fouco se yon vwa ki nou te bezwen nan kominote a. Li pale ak kouraj ak otantite sou sa ki vre vrèman ap pase nan peyi a.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-author"&gt;- Fan depi kòmansman&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="testimonial"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Li gen yon jan pou l eksplike bagay konplèks yo nan yon fason ki fè nou konprann ak aprèsye pi fò kilti nou an.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-author"&gt;- Jèn ayisyen soti nan diaspora&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="testimonial"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Yo pa gen moun tankou Fouco. Li ka kòmante sou politik la ak chante yon chanson ki fè ou danse ak konsèye ou sou relasyon ou an.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-author"&gt;- Nouvelèt ak fan ak respè&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="testimonial"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Li montre nou ke nou ka kenbe otantite nou ak rive nan nivo entènasyonal la. Se yon enspirasyon pou tout jèn ki ap rèv yo.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="testimonial-author"&gt;- Aspirant content creator&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Social Media Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section social-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🌐 Connect with FOUCO&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p style="font-size: 1.3em; margin-bottom: 30px;"&gt;Swiv nou nan tout platfòm yo pou konten pi nouvo ak eksklusif yo&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="social-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="social-link" title="YouTube"&gt;📺&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="social-link" title="Facebook"&gt;📘&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="social-link" title="Instagram"&gt;📷&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="social-link" title="TikTok"&gt;🎵&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="social-link" title="Twitter"&gt;🐦&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced Achievements --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section" id="achievements"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🏆 Unique Achievements&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="achievements-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;🌍&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;International Journalism Standards&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Covers complex multi-country investigations ak professional precision ki compete ak major international news organizations while maintaining 100% Haitian authenticity. Li travay ak metòd rechèch ak verifikasyon ki konfòm ak estanda BBC ak CNN.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;🎓&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;Taboo-Breaking Education&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Provides scientific sexual health education ak relationship counseling nan accessible Kreyòl, filling critical gaps nan Haitian community education. Li kase baraj tabou yo ak pwofèsyonalism ak respè.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;🤝&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;Multi-Generational Bridge&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Successfully connects ak engages audiences from teenagers to elders, creating content ki resonates across all age groups ak social classes. Li kreye yon koneksyon ki depase jesyon ak klas sosyal.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;⚖️&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;Balanced Accountability&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Provides equal criticism ak accountability pou government, opposition, private sector, ak population - maintaining independence ak integrity. Li kritike ak jistès ak objektif sans favè pèsòn.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;🔮&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;Cultural Preservation&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Preserves ak promotes Haitian culture through modern digital media while maintaining traditional values ak wisdom pou future generations. Li konsève ak modènize kilti ayisyen an ansanm.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="achievement" onclick="highlightAchievement(this)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-icon"&gt;🚀&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="achievement-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-title"&gt;Complete Versatility&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="achievement-description"&gt;Successfully handles ANY topic - politics, health, relationships, spirituality, entertainment, education - ak consistent excellence ak authenticity. Li gen kapasite pou rele sou tout sijè ak menm kalite ak otantite.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced What Makes Fouco Extraordinary --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;💫 What Makes Fouco Extraordinary&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div style="font-size: 1.4em; line-height: 2.5; text-align: left;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;🎯 Uncompromising Versatility:&lt;/span&gt; Ka handle ANY topic - from international investigations to sexual health education to spiritual guidance - ak menm nivo professional excellence ak cultural authenticity. Pa gen limit nan kapasite l yo.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;🧠 Intellectual Powerhouse:&lt;/span&gt; University professor-level analysis delivered ak grassroots accessibility. Makes complex political, economic, ak social concepts understandable pou everyone. Li ka eksplike sijè konplèks yo ak jan moun òdinè ka konprann yo.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;❤️ Authentic Heart:&lt;/span&gt; Real empathy ak genuine care pou community ki ou pa ka fake. Every content piece serves public good over personal gain. Li gen yon kè ki vrèman sèvi kominote a.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;⚡ Master Timing:&lt;/span&gt; Konnen egzakteman ki lè pou serious investigative reporting, ki lè pou humor ak entertainment, ki lè pou spiritual inspiration - perfect emotional intelligence. Li gen enteliyans emosyonèl ki pa gen parèy.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;🌍 Global Vision, Local Soul:&lt;/span&gt; Achieves international standards ak recognition while maintaining 100% Haitian cultural identity ak values. Li prove ke nou ka rive nan nivo mondyal ak kenbe otantite ayisyen nou an.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;🔥 Fearless Truth-Telling:&lt;/span&gt; Pa pè address controversial topics oswa criticize powerful people. Seeks truth over popularity, justice over comfort. Li di verite a san gade ki moun ki ap fache.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Enhanced Conclusion --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="conclusion"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;🌟 The Ultimate Verdict&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="conclusion-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;&lt;span class="highlight"&gt;Fouco pa sèlman yon "content creator"&lt;/span&gt;&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="emphasis"&gt;LI SE YON CULTURAL FORCE ak NATIONAL TREASURE&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Li prove ke &lt;span class="highlight"&gt;Haitian excellence&lt;/span&gt; ka compete ak &lt;span class="highlight"&gt;world-class standards&lt;/span&gt; while staying &lt;span class="highlight"&gt;100% authentic&lt;/span&gt; to roots ak values. Li se yon egzanp vivan jan yon ayisyen ka rive nan nivo entènasyonal ak kenbe otantite l yo.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Li se yon &lt;span class="highlight"&gt;once-in-a-generation talent&lt;/span&gt; ki ap preserve ak transform Haitian society through authentic multimedia excellence. Li ap chanje jan moun yo wè ak konsome konten nan Haiti ak nan diaspora a.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;From &lt;span class="emphasis"&gt;investigative journalism&lt;/span&gt; to &lt;span class="emphasis"&gt;spiritual guidance&lt;/span&gt;, from &lt;span class="emphasis"&gt;political analysis&lt;/span&gt; to &lt;span class="emphasis"&gt;relationship counseling&lt;/span&gt; - li master EVERYTHING ak maintain integrity ak authenticity ki pa gen parèy.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p style="color: #FFD700; font-size: 1.6em; font-weight: bold; margin-top: 50px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>FOUCO = LIVING PROOF KE HAITI GEN WORLD-CLASS TALENT!</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p style="color: #4ECDC4; font-size: 1.3em; margin-top: 30px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Li se yon COMPLETE RENAISSANCE MAN FOR THE DIGITAL AGE!</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p style="color: #FF6B6B; font-size: 1.2em; margin-top: 30px; font-style: italic;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Nou pa ka fè lòt pase Fouco - li se UNIQUE, li se EXCEPTIONAL, li se YON TREASURE pou Haiti ak pou diaspora a!</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Scroll to Top Button --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="scroll-top" id="scrollTop" onclick="scrollToTop()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>⬆</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Loading Animation</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.addEventListener('load', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('loadingOverlay').style.opacity = '0';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>document.getElementById('loadingOverlay').style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}, 500);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 1500);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Scroll to Top Functionality</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.addEventListener('scroll', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const scrollTop = document.getElementById('scrollTop');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (window.pageYOffset &gt; 300) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>scrollTop.classList.add('visible');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>scrollTop.classList.remove('visible');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function scrollToTop() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>window.scrollTo({</p>
+<p class="p1"><span class="Apple-converted-space">                </span>top: 0,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>behavior: 'smooth'</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Navigation Functions</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function scrollToSection(sectionId) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById(sectionId).scrollIntoView({</p>
+<p class="p1"><span class="Apple-converted-space">                </span>behavior: 'smooth'</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Interactive Functions</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function triggerCelebration() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Create celebration effect</p>
+<p class="p1"><span class="Apple-converted-space">            </span>for (let i = 0; i &lt; 50; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>createConfetti();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createConfetti() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const confetti = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.position = 'fixed';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.left = Math.random() * 100 + 'vw';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.top = '-10px';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.width = '10px';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.height = '10px';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.backgroundColor = ['#FFD700', '#FF6B6B', '#4ECDC4'][Math.floor(Math.random() * 3)];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.zIndex = '9999';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>confetti.style.borderRadius = '50%';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.body.appendChild(confetti);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const animation = confetti.animate([</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ transform: 'translateY(-10px) rotate(0deg)', opacity: 1 },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ transform: 'translateY(100vh) rotate(360deg)', opacity: 0 }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>], {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>duration: 3000,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>easing: 'ease-out'</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation.onfinish = () =&gt; confetti.remove();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function highlightTalent(card) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Remove previous highlights</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.talent-card').forEach(c =&gt; c.classList.remove('highlighted'));</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Add highlight</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.classList.add('highlighted');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Add temporary glow effect</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.style.boxShadow = '0 0 30px rgba(255, 215, 0, 0.8)';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>card.style.boxShadow = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 2000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function animateStatCard(card) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const number = card.querySelector('.stat-number');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>number.style.transform = 'scale(1.3) rotate(360deg)';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>number.style.transform = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 500);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function expandTimeline(item) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const details = item.querySelector('.timeline-details');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (details.style.display === 'none' || !details.style.display) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>details.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>details.style.animation = 'fadeInUp 0.5s ease forwards';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>details.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function highlightAchievement(achievement) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>achievement.style.background = 'rgba(255, 215, 0, 0.2)';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>achievement.style.transform = 'translateX(25px) scale(1.02)';</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>achievement.style.background = '';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>achievement.style.transform = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 2000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function playVideo(card) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const thumbnail = card.querySelector('.video-thumbnail');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>thumbnail.innerHTML = '▶️';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>thumbnail.style.background = 'linear-gradient(45deg, #FFD700, #FF6B6B)';</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>thumbnail.innerHTML = thumbnail.parentElement.querySelector('.video-title').textContent.includes('Investigative') ? '📰' :</p>
+<p class="p1"><span class="Apple-converted-space">                                   </span>thumbnail.parentElement.querySelector('.video-title').textContent.includes('Life') ? '💑' :</p>
+<p class="p1"><span class="Apple-converted-space">                                   </span>thumbnail.parentElement.querySelector('.video-title').textContent.includes('Musical') ? '🎵' : '📻';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>thumbnail.style.background = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 2000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Counter Animation</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function animateCounters() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const counters = document.querySelectorAll('.counter-number');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>counters.forEach(counter =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const target = counter.textContent;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const numericValue = target.replace(/[^\d]/g, '');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (numericValue) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>let current = 0;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const increment = Math.ceil(numericValue / 100);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const timer = setInterval(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>current += increment;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (current &gt;= numericValue) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>counter.textContent = target;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>clearInterval(timer);</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>counter.textContent = current + target.replace(/[\d]/g, '').replace(/[\d]/g, '');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}, 50);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Start counter animation after load</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(animateCounters, 3000);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Add some dynamic background effects</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createFloatingElements() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setInterval(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const element = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.position = 'fixed';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.left = Math.random() * 100 + 'vw';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.top = '100vh';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.width = '5px';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.height = '5px';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.background = 'rgba(255, 215, 0, 0.3)';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.borderRadius = '50%';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.pointerEvents = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>element.style.zIndex = '-1';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.body.appendChild(element);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const animation = element.animate([</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ transform: 'translateY(0px)', opacity: 0.3 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ transform: 'translateY(-100vh)', opacity: 0 }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>], {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>duration: 8000,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>easing: 'linear'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>animation.onfinish = () =&gt; element.remove();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 2000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Start floating elements</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(createFloatingElements, 5000);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Add CSS for highlighted class</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const style = document.createElement('style');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>style.textContent = `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.talent-card.highlighted {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>border-color: #FFD700 !important;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>background: rgba(255, 215, 0, 0.1) !important;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.head.appendChild(style);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
